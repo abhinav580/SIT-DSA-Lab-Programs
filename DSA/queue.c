@@ -41,7 +41,7 @@ void enqueue()
 	printf("\nEnter Value to be inserted  : ");
 	scanf("%d",&temp->data);
 	temp->next=NULL;
-	if(front==NULL)
+	if(rear==NULL)
 	{	front = temp;
 		rear=temp;
 	}
